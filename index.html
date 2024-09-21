@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="container">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Usuário" id="meu-input">
+                <i class="bx bxs-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Senha">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label for="lembrar-senha">
+                    <input type="checkbox">
+                    Lembrar Senha
+                </label>
+                <a href="#">Esqueci a Senha</a>
+            </div>
+
+            <button type="submit" class="login">Login</button>
+
+            <div class="register-link">
+                <p>Não Tem Conta? <a href="#">Cadastre-se!</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+<script>document.getElementById('meu-input').focus();</script>
+</html>
